@@ -1,12 +1,12 @@
 ---
+content_type: concept
 title: Contribute
-description: Contribution recognitions
-weight: 11
-notoc: true
+linktitle: Contribute
+main_menu: true
+no_list: true
+weight: 80
+card:
+  name: contribute
+  weight: 10
+  title: Start contributing to Falco
 ---
-
-## How can I contribute?
-
-First, thank you for your interest!
-
-Please review our Contribution Guide [here](https://github.com/falcosecurity/.github/blob/master/CONTRIBUTING.md)

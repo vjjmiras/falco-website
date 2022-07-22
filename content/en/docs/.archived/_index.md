@@ -1,11 +1,7 @@
 ---
-title: Documentation
-linktitle: Falco Documentation
-noedit: true
-# description: Cloud Native Runtime Security
-sitemap:
-  priority: 1.0
-# weight: 1
+title: The Falco Project
+description: Cloud Native Runtime Security
+weight: 1
 ---
 
 ## What is Falco?
