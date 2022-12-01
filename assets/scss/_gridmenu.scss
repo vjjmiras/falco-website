@@ -1,0 +1,70 @@
+.gridMenu {
+
+    .launch-content {
+        position: relative;
+        margin: 20px auto 50px;
+    }
+
+    .launch-cards {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .launch-card {
+        position: relative;
+        width: 33%;
+        padding: 0 30px 0 0;
+        margin-bottom: 50px;
+        min-height: 152px;
+        
+        button {
+          display: inline-block;
+          box-sizing: border-box;
+          cursor: pointer;
+          color: white !important;
+          background-color: $primary  !important;
+          border-radius: 6px;
+          padding: 6px 20px;
+          line-height: 1.6rem;
+          text-decoration: none;
+          font-size: 1rem;
+          background: none;
+          margin: 0;
+          border: 0;
+        }
+
+        ul,
+        li {
+          list-style: none;
+          padding-left: 0;
+        }
+
+    }
+    /* 
+     * Remove the height of the H2 element pseudo-class and set the appropriate spacing 
+     * to avoid mistakenly overriding the styles of other elements 
+     */
+    .launch-card h2::before {
+        margin-top: 1rem ;
+        height: 0 ;
+    }
+
+    p {
+        color: rgb(26,26,26);
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        font-weight: 300 !important;
+    }
+
+    @media screen and (max-width: 768px){
+        .launch-card {
+            width: 100%;
+            margin-bottom: 30px;
+            padding: 0;
+            min-height: auto;
+        }
+    }
+}
