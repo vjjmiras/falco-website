@@ -1,0 +1,17 @@
+{{ define "main" }}
+    {{ template "grid-menu-content" . }}
+{{ end }}
+
+{{ define "grid-menu-content" }}
+    <section id="mainMenuContent" class="gridMenu">
+        <div class="launch-content">
+            <p>{{ .Params.overview | safeHTML }}</p>
+            <br>
+            <div class="launch-cards">
+              {{ $page := (partial "docs/grid-menu-card" .) }}
+              {{ .Scratch.Set "html" $page }}
+              {{ $page }}
+            </div>
+        </div>
+    </section>
+{{ end }}
