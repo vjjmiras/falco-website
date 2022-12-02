@@ -2,6 +2,10 @@
 title: Plugins
 description: Plugins for Falco libraries/Falco daemon
 weight: 50
+card:
+  name: basics
+  weight: 20
+  title: Falco Plugins
 ---
 
 ## Introduction

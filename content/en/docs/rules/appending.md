@@ -3,6 +3,10 @@ title: Extending Rules
 description: Appending to Lists, Rules, and Macros
 linktitle: Extending Rules
 weight: 50
+card:
+  name: advanced
+  weight: 20
+  title: Extending Rules
 ---
 
 ## Overview

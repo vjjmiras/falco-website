@@ -8,6 +8,10 @@ no_edit: true
 notoc: true
 categories: ["Installation", "Deployment"]
 tags: ["Falco Daemon"]
+card:
+  name: reference
+  weight: 10
+  title: Falco Arguments
 ---
 
 This page lists all arguments you can pass to Falco in your command line:

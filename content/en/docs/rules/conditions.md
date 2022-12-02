@@ -3,6 +3,10 @@ title: Condition Syntax
 description: Learn how to write conditions for a Falco Rule
 linktitle: Condition Syntax
 weight: 40
+card:
+  name: advanced
+  weight: 10
+  title: Condition Syntax
 ---
 
 A condition is a boolean expression related to a single event that has been detected by Falco. You can use fields related to every supported event, but this document focuses on syscalls as they're currently the most common. The language supports boolean operators and parentheses as you'd expect. For example a condition like:

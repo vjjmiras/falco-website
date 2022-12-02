@@ -3,6 +3,10 @@ title: Event Sources
 linktitle: Event Sources
 description: Leverage multiple Event Sources to increase the power of Falco
 weight: 60
+card:
+  name: basics
+  weight: 20
+  title: Event Sources
 ---
 
 Falco is able to consume streams of events and evaluate them against a set of security rules to detect abnormal behavior. Events are consumed through different event sources, which define the origin, nature, and format of the streamed events.

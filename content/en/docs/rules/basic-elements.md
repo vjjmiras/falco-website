@@ -3,6 +3,10 @@ title: Basic Elements of Falco Rules
 description: Understand Falco Rules, Lists and Macros
 linktitle: Basics of Falco Rules
 weight: 10
+card:
+  name: basics
+  weight: 10
+  title: Basics of Falco Rules
 ---
 ## Rules
 

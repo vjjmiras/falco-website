@@ -3,6 +3,10 @@ title: Alert Channels
 description: Supported channels for Falco Alerts
 linktitle: Alert Channels
 weight: 10
+card:
+  name: basics
+  weight: 30
+  title: Alert Channels
 ---
 
 ## Standard Output

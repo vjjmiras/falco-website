@@ -121,7 +121,7 @@ id = "UA-40398182-19"
 [[menu.main]]
     name = "Documentation"
     weight = 40
-    url = "/docs/"
+    url = "/docs/home/"
 [[menu.main]]
     name = "Blog"
     weight = 50

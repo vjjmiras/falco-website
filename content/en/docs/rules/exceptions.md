@@ -3,6 +3,10 @@ title: Rule Exceptions
 description: Add exceptions to Falco Rules to adapt them to your environment
 linktitle: Rule Exceptions
 weight: 70
+card:
+  name: advanced
+  weight: 30
+  title: Rule Exceptions
 ---
 
 ## Introduction

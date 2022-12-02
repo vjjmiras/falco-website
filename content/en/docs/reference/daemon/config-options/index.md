@@ -8,6 +8,10 @@ notoc: true
 no_edit: true
 categories: ["Installation", "Deployment", "Configuration"]
 tags: ["Falco Daemon", "falco.yaml", "rules files"]
+card:
+  name: reference
+  weight: 10
+  title: Falco Config Options
 ---
 
 Falco's configuration file is a [YAML](http://www.yaml.org/start.html) file containing a collection of `key: value` or `key: [value list]` pairs.

@@ -3,6 +3,10 @@ title: Actions For Dropped System Call Events
 description: Let Falco say *basta* when your system reaches its limit
 linktitle: Dropped Syscall Events
 weight: 60
+card:
+  name: advanced
+  weight: 50
+  title: Dropped Syscall Events
 ---
 ## Introduction
 
