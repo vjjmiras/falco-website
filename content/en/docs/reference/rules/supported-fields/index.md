@@ -3,6 +3,10 @@ aliases: ["/docs/rules/supported-fields"]
 title: Supported Fields for Conditions and Outputs
 linktitle: Fields for Conditions and Outputs
 weight: 60
+card:
+  name: reference
+  weight: 30
+  title: Supported Fields
 ---
 
 Here are the fields supported by Falco. These fields can be used in the `condition` key of a Falco rule and well as the `output` key. Any fields included in the `output` key of a rule will also be included in the alert's `output_fields` object when [`json_output`](../../alerts#json-output) is set to `true`.
